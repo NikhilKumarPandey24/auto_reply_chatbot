@@ -6,7 +6,7 @@ import google.generativeai as genai
 from ge import MY_CONVERSATIONS
 
 # Gemini API setup
-genai.configure(api_key="AIzaSyAu5pmzYn7J3aYvksp2cGmxZn5Z6zJWC3g")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 pyautogui.FAILSAFE = False  # disable fail-safe
